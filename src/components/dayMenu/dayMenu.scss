@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Circular--Bold";
+    src: url("../../resources/fonts/Circular-Std-Bold.ttf") format("truetype");
+    font-family: "OverpassMono-Light";
+    src: url("../../resources/fonts/OverpassMono-Light.ttf") format("truetype");
+    font-family: "OverpassMono-Regular";
+    src: url("../../resources/fonts/OverpassMono-Regular.ttf") format("truetype");
+    font-family: "Circular-Book";
+    src: url("../../resources/fonts/Circular-Std-Book.ttf") format("truetype");
+}
+@import "../../style/variables.scss";
+
+.menu {
+    &-subhead {
+        display: flex;
+        font-size: 22px;
+        font-family: "OverpassMono-Regular", monospace;
+        text-align: center;
+        margin-bottom: 60px;
+        cursor: pointer;
+        &-img {
+            margin-top: -5px;
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &-dish {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+        font-family: "OverpassMono-Light", monospace;
+        margin-bottom: 20px;
+        margin-left: 160px;
+        margin-right: 160px;
+        transition: border-color 0.4s;
+        padding: 25px 25px 25px 25px;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+        &:hover {
+            border-radius: 15px;
+            border: 1px solid $orange;
+        }
+
+        &-title {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            line-height: 38px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            &-text {
+                margin-right: 15px;
+            }
+
+            & img {
+                width: 50px;
+                height: 50px;
+                margin-top: -20px;
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 1px;
+                background-color: #000;
+                margin-left: 10px;
+                width: 300px;
+                margin-top: -5px;
+                margin-right: 20px;
+            }
+        }
+
+        &-components {
+            width: 100%;
+            font-size: 16px;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        &-edition {
+            &-title {
+                margin-bottom: 20px;
+            }
+            &-components {
+                font-size: 16px;
+                margin-left: 50px;
+            }
+        }
+    }
+}

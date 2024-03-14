@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Circular-Book";
+    src: url("../../../resources/fonts/Circular-Std-Book.ttf") format("truetype");
+}
+
+.menu-header {
+    position: relative;
+    margin-bottom: 400px;
+    margin-left: 100px;
+    &-title {
+        position: relative;
+        z-index: 2;
+        font-size: 80px;
+        font-family: "Circular-Book", Sans-serif;
+        font-weight: bold;
+        padding: 25px 0px 40px;
+
+        &-img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+        }
+    }
+    &-workingTime {
+        position: relative;
+        color: #000000;
+        font-family: "Circular-Book", Sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+}
