@@ -7,36 +7,30 @@
   src: url("../../resources/fonts/Circular-Std-Book.ttf") format("truetype");
 }
 
-.foodAndDrinks {
-  margin: 150px auto 0;
-  max-width: 1280px;
+.title {
+  font-family: "Circular-Book", Sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 60px;
+}
 
-  &-title {
-    font-family: "Circular-Book", Sans-serif;
-    font-size: 27px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 60px;
-  }
-
-  &-sections {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-  }
-
-  &-sections-photos {
+.sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  &-photos {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     transition: all 0.2s ease-in 0s;
   }
-  &-sections-photos:hover {
+  &-photos:hover {
     opacity: 0.6;
   }
 
-  &-sections-descriptions {
+  &-descriptions {
     display: flex;
     align-items: center;
     text-align: center;
@@ -44,13 +38,13 @@
     font-size: 18px;
     font-family: "OverpassMono-Light", monospace;
   }
-  &-sections-photos > a {
+  &-photos > a {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  &-sections-descriptions > div {
+  &-descriptions > div {
     margin-top: 20px;
   }
 }

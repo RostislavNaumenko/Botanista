@@ -11,36 +11,36 @@ const DayMenu = () => {
     return (
         <>
             <HeaderSection />
-            <div className='menu'>
-                <div className='menu-subhead'>
-                    <img src={BlobTitle} alt="Dish Label" className='menu-subhead-img' />
-                    <div className='menu-subhead-text'>
+            <div className='day-menu'>
+                <div className='subhead'>
+                    <img src={BlobTitle} alt="Dish Label" className='subhead-img' />
+                    <div className='subhead-title'>
                         Sweet Side of Life
                     </div>
                 </div>
 
-                <div className='menu-dish'>
-                    <div className='menu-dish-title'>
-                        <div className='menu-dish-title-text'>
+                <div className='dish'>
+                    <div className='dish-title'>
+                        <div className='dish-title-text'>
                             Vanilla Super Hero Bowl
                         </div>
-                        <img src={Glutenfrei} alt='Dish Title' className='menu-dish-title-img' />
-                        <img src={LowCal} alt='Dish Title' className='menu-dish-title-img' />
-                        <img src={HighProtein} alt='Dish Title' className='menu-dish-title-img' />
-                        <img src={LowCarb} alt='Dish Title' className='menu-dish-title-img' />
+                        <img src={Glutenfrei} alt='Dish Title' className='dish-title-img' />
+                        <img src={LowCal} alt='Dish Title' className='dish-title-img' />
+                        <img src={HighProtein} alt='Dish Title' className='dish-title-img' />
+                        <img src={LowCarb} alt='Dish Title' className='dish-title-img' />
 
                     </div>
-                    <div className='menu-dish-price'>
+                    <div className='dish-price'>
                         7.9€
                     </div>
-                    <div className='menu-dish-components'>
+                    <div className='dish-components'>
                         Protein-rich vanilla-creme with homemade, sugar-free granola & seasonal fruits
                     </div>
-                    <div className='menu-dish-edition' >
-                        <div className='menu-dish-edition-title'>
+                    <div className='dish-edition' >
+                        <div className='dish-edition-title'>
                             Botanista Edition +3€
                         </div>
-                        <div className='menu-dish-edition-components'>
+                        <div className='dish-edition-components'>
                             Additionally with hulled hemp seeds, homemade chia-berry-jam, goji berries & banana
                         </div>
 

@@ -1,6 +1,11 @@
-*,
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
+}
+
+.app {
+    margin-top: 100px;
+}
+
+.page-margin {
 }
