@@ -7,6 +7,7 @@ const HeaderSection = () => {
         <div className='menu-header'>
             <div className='menu-header-title'>
                 Week Day
+
             </div>
             <img src={BlobPreview} alt="" className='menu-header-title-img' />
             <div className='menu-header-workingTime'>
