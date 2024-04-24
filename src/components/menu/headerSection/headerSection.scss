@@ -5,6 +5,9 @@
 
 .menu-header {
     position: relative;
+    margin-bottom: 270px;
+    margin-top: 250px;
+    margin-left: 150px;
     &-title {
         position: relative;
         z-index: 2;
@@ -21,6 +24,7 @@
         }
     }
     &-workingTime {
+        margin-left: 50px;
         position: relative;
         color: #000000;
         font-family: "Circular-Book", Sans-serif;

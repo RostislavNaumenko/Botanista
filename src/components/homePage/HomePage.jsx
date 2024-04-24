@@ -37,8 +37,8 @@ const HomePage = () => {
 
     return (
         <div className="homepage">
-            <div className="slider" >
-                <div className="slider-items">
+            <div className="homepage-slider" >
+                <div className="homepage-slider-items">
                     <img src={images[currentSlide]} alt="Slide" />
                 </div>
 
